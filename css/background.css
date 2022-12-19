@@ -1,3 +1,4 @@
+/* CSS - 배경 스타일링 */
 body {
   background-color: gold;
 }
@@ -5,6 +6,11 @@ body {
 .container {
   width: 1000px;
   height: 400px;
-  background-color: pink;
+  /* background-color: pink;
   background-image: url("./../images/css.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0; */
+  background: pink url("./../images/css.jpg") no-repeat 50% 0 / contain;
 }
+/* contain과 cover 잘 알고 넘어갈 것 */
